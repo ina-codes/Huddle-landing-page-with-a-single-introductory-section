@@ -3,3 +3,35 @@
    margin: 0;
    padding: 0;
 }
+
+/*mobile view setup*/
+@media screen and (max-width: 600px) {
+   
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 600;
+   background-image: images/bg-desktop;
+   background-color: hsl(257, 40%, 49%);
+   color:  hsl(0, 0%, 100%);
+}
+
+header {
+   padding-top: 50px;
+   padding-left: 50px;
+}
+
+h1 {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+}
+
+.attribution { 
+   font-size: 11px;
+   text-align: center; 
+}
+
+.attribution a { 
+   color: hsl(228, 45%, 44%); 
+}
