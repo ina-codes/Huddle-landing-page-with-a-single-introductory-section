@@ -16,19 +16,39 @@
   <title>Frontend Mentor | Huddle landing page with single introductory section</title>
 
 </head>
+
+<style>
+  /* responsive background images */
+  @media only screen and (max-width:600px) {
+    body {
+      background-image: url('images/bg-mobile.svg');
+    }
+  }
+
+  @media only screen and (min-width:601px) {
+    body {
+      background-image: url('images/bg-desktop.svg');
+    }
+  }
+</style>
+
 <body>
+  <!-- <div style="background-image: url('images/bg-desktop.svg');"> -->
   <header>
-    <img src="images/logo.svg" alt="logo">
+    <img src="images/logo.svg" type="image/svg" alt="logo">
   </header>
-
+<main>
+  <img src="images/illustration-mockups.svg">
+  
   <h1>Build The Community Your Fans Will Love</h1>
-
+  
   <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
     Create connections with your users as you engage in genuine discussion.</p>
   <button>
-    
+    Register
   </button>
   Register
+</main>
 
   <footer>
     <p class="attribution">
@@ -36,5 +56,6 @@
       Coded by <a href="https://github.com/ina-codes/Huddle-landing-page-with-a-single-introductory-section">Ina</a>.
     </p>
   </footer>
+</div>
 </body>
 </html>
